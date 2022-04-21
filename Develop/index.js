@@ -84,10 +84,10 @@ function writeToFile(fileName,answers) {
 
 // TODO: Create a function to initialize app
 function init() {
- inquirer.prompt(questions)
- .then(function(answers){
-     writeToFile(fileName, answers)
- })
+    inquirer.prompt(questions)
+    .then(function(answers){
+        writeToFile(fileName, answers)
+    })
 }
 
 // Function call to initialize app
