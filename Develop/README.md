@@ -1,24 +1,34 @@
 
-  # The Destroyer
+  # cdcdcdc
 
   # Description
-    To create a program that identifies the differnece between emotions on people. The AI layout is capable of identifyng the diferents parameters that collect emotions in general
+    cdcdcddc
+
+    # Table of Contents
+    - [Description](#Description)
+    - [Installation](#Install)
+    - [Usage](#Usage)
+    - [Colaborators](#Colaborators)
+    - [Test](#Test)
+    - [Contact](#Contact)
+    - [License](#License)  
   
   # Install
-    Indeed, in order to continue with the progress user needs to use terminal to call "node index.js"
+    dcdcdcdcdcdc
   
   # Usage
-    This projects helps the user to indetify diferents emotions on people
+    dcdcdcddcdc
   
   # Colaborators
-    - Vince Lee , - Manuel Nunes
+    dcdcdcd
   
   # Test
-    We tested the program using node.js
+    cdcdcdcdcd
 
   # Contact
-    [@ Wau00](https://github.com/Wau00)
-    walonsounderwood@gmail.com
+    [Wau00](https://github.com/Wau00)
+    calned@gmail.com
+    * [Ajax](https://api.jquery.com/jquery.ajax/)
    
-  #License
+  # License
   [![License](https://img.shields.io/badge/license-MIT-brightgreen) 

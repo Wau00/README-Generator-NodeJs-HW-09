@@ -17,6 +17,15 @@ function generateMarkdown(answers) {
 
   # Description
     ${answers.description}
+
+    # Table of Contents
+    - [Description](#Description)
+    - [Installation](#Install)
+    - [Usage](#Usage)
+    - [Colaborators](#Colaborators)
+    - [Test](#Test)
+    - [Contact](#Contact)
+    - [License](#License)  
   
   # Install
     ${answers.install}
@@ -31,10 +40,11 @@ function generateMarkdown(answers) {
     ${answers.test}
 
   # Contact
-    [@ ${answers.username}](https://github.com/${answers.username})
+    [${answers.username}](https://github.com/${answers.username})
     ${answers.email}
+    * [Ajax](https://api.jquery.com/jquery.ajax/)
    
-  #License
+  # License
   [![License](https://img.shields.io/badge/license-${answers.license}-brightgreen) 
 `;
 }

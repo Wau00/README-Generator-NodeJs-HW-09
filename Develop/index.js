@@ -4,8 +4,7 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 // const questions = [];
-
-inquirer.prompt([
+    const questions = [
         {
             type: 'input',
             name: 'title',
@@ -60,25 +59,32 @@ inquirer.prompt([
                 "Open"
             ]
         },
-    ])
-    .then((answers) =>{
-        const readmeContent = generateMarkdown(answers);
-        // fs.readFile('database.json','utf-8',(err , data) =>{
-        //     const oldReadme = JSON.parse(data)
-        //     oldReadme.push(answers)
-        //     fs.writeFile('database.json', JSON.stringify(oldReadme),(err)=>
-        //     err ? console.log(err) : console.log('Succesfully created DB!')
-        //     );
-        // })
-        fs.writeFile('README.md', readmeContent, (err) =>
-        err ? console.log(err) : console.log('Succesfully created README.md'))
-    });
+    ]
+
+    // .then((answers) =>{
+    //     const readmeContent = generateMarkdown(answers);
+    //     // fs.readFile('database.json','utf-8',(err , data) =>{
+    //     //     const oldReadme = JSON.parse(data)
+    //     //     oldReadme.push(answers)
+    //     //     fs.writeFile('database.json', JSON.stringify(oldReadme),(err)=>
+    //     //     err ? console.log(err) : console.log('Succesfully created DB!')
+    //     //     );
+    //     // })
+    //     fs.writeFile('README.md', readmeContent, (err) =>
+    //     err ? console.log(err) : console.log('Succesfully created README.md'))
+    // });
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    const newReadme = generateMarkdown(data);
+    fs.writeFile(fileName, newReadme, (err) =>
+        err ? console.log(err) : console.log('Succesfully created README.md'))
+}         
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+
+}
 
 // Function call to initialize app
 init();
