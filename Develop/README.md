@@ -2,35 +2,34 @@
   # LAAW Investment Tracker
 
   # Description
-    This platform was created with the intention of making it easy for any user curious about the current stock market. The search bar function allows the user to add a stock they would like to track.
+
 
   ## Table of Content
-
-    - [Description](#Description)
-    - [Installation](#Install)
-    - [Usage](#Usage)
-    - [Colaborators](#Colaborators)
-    - [Test](#Test)
-    - [Contact](#Contact)
-    - [License](#License)  
+- [Description](#Description)
+- [Installation](#Install)
+- [Usage](#Usage)
+- [Colaborators](#Colaborators)
+- [Test](#Test)
+- [Contact](#Contact)
+- [License](#License)  
   
   ## Install
-    npm install inquirer is required
+This platform was created with the intention of making it easy for any user curious about the current stock market. The search bar function allows the user to add a stock they would like to track.
   
   ## Usage
-    The easy navigation in this application allows the user to focus solely on the stock(s) they are trying to follow
+This platform was created with the intention of making it easy for any user curious about the current stock market. The search bar function allows the user to add a stock they would like to track.
   
   ## Colaborators
-    Walter U
+Walter U
   
   ## Test
-    No test are included
+no test are included
 
   ## Contact
-    Feel free to contact me:
-    GitHub: [wau00](https://github.com/wau00)
-    Email: example@email.com
+Feel free to contact me:
+GitHub: [Wau00](https://github.com/Wau00)
+Email: walteru@gmail.com
   
   # License
-  This project is protected under MIT license. 
-  ![License](https://img.shields.io/badge/license-MIT-brightgreen) 
+This project is protected under MIT license. 
+![License](https://img.shields.io/badge/license-MIT-brightgreen) 

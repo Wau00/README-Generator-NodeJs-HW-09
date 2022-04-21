@@ -5,37 +5,37 @@ function generateMarkdown(answers) {
   # ${answers.title}
 
   # Description
-    ${answers.description}
+${answers.description}
 
   ## Table of Content
-    - [Description](#Description)
-    - [Installation](#Install)
-    - [Usage](#Usage)
-    - [Colaborators](#Colaborators)
-    - [Test](#Test)
-    - [Contact](#Contact)
-    - [License](#License)  
+- [Description](#Description)
+- [Installation](#Install)
+- [Usage](#Usage)
+- [Colaborators](#Colaborators)
+- [Test](#Test)
+- [Contact](#Contact)
+- [License](#License)  
   
   ## Install
-    ${answers.install}
+${answers.install}
   
   ## Usage
-    ${answers.usage}
+${answers.usage}
   
   ## Colaborators
-    ${answers.colaborator}
+${answers.colaborator}
   
   ## Test
-    ${answers.test}
+${answers.test}
 
   ## Contact
-    Feel free to contact me:
-    GitHub: [${answers.username}](https://github.com/${answers.username})
-    Email: ${answers.email}
+Feel free to contact me:
+GitHub: [${answers.username}](https://github.com/${answers.username})
+Email: ${answers.email}
   
   # License
-  This project is protected under ${answers.license} license. 
-  ![License](https://img.shields.io/badge/license-${answers.license}-brightgreen) 
+This project is protected under ${answers.license} license. 
+![License](https://img.shields.io/badge/license-${answers.license}-brightgreen) 
 `;
 }
 
