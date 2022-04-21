@@ -18,7 +18,8 @@ function generateMarkdown(answers) {
   # Description
     ${answers.description}
 
-    # Table of Contents
+  # Table of Content
+
     - [Description](#Description)
     - [Installation](#Install)
     - [Usage](#Usage)
@@ -42,7 +43,7 @@ function generateMarkdown(answers) {
   # Contact
     [${answers.username}](https://github.com/${answers.username})
     ${answers.email}
-    * [Ajax](https://api.jquery.com/jquery.ajax/)
+  
    
   # License
   [![License](https://img.shields.io/badge/license-${answers.license}-brightgreen) 
