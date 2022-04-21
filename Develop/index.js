@@ -75,15 +75,18 @@ const generateMarkdown = require('./utils/generateMarkdown');
     // });
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    const newReadme = generateMarkdown(data);
-    fs.writeFile(fileName, newReadme, (err) =>
+function writeToFile(answers) {
+    const newReadme = generateMarkdown(answers);
+    fs.writeFile('README.md', newReadme, (err) =>
         err ? console.log(err) : console.log('Succesfully created README.md'))
 }         
 
 // TODO: Create a function to initialize app
 function init() {
-
+ inquirer.prompt(questions)
+ .then(function(answers){
+     writeToFile(answers)
+ })
 }
 
 // Function call to initialize app
