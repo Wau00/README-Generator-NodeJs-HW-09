@@ -8,10 +8,9 @@ In this project, we created a README.md generator, which helps the user to creat
 # Table of Content
 
 * [Run and Usage](#run-and-usage)
-* [Webpage Preview](#webpage-preview)
+* [Project Preview](#project-preview)
 * [Technologies](#technologies)
-* [Reference](#reference)
-* [Credits](#credits)
+* [License](#license)
 
 # Run and Usage
 Link  of  project video: https://user-images.githubusercontent.com/99919050/164584984-515b234e-2fae-4734-8b10-daf56a46890e.mp4
