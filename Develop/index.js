@@ -62,20 +62,6 @@ const generateMarkdown = require('./utils/generateMarkdown');
         },
     ]
 
-    // .then((answers) =>{
-    //     const readmeContent = generateMarkdown(answers);
-    //     // fs.readFile('database.json','utf-8',(err , data) =>{
-    //     //     const oldReadme = JSON.parse(data)
-    //     //     oldReadme.push(answers)
-    //     //     fs.writeFile('database.json', JSON.stringify(oldReadme),(err)=>
-    //     //     err ? console.log(err) : console.log('Succesfully created DB!')
-    //     //     );
-    //     // })
-    //     fs.writeFile('README.md', readmeContent, (err) =>
-    //     err ? console.log(err) : console.log('Succesfully created README.md'))
-    // });
-
-
 // Create a function to write README file
 function writeToFile(fileName,answers) {
     const newReadme = generateMarkdown(answers);

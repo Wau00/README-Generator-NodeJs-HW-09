@@ -1,8 +1,8 @@
 
-  # LAAW Investment Tracker
+  # LAAW INVESTMENT 
 
   # Description
-
+This platform was created with the intention of making it easy for any user curious about the current stock market. The search bar function allows the user to add a stock they would like to trac.
 
   ## Table of Content
 - [Description](#Description)
@@ -14,21 +14,21 @@
 - [License](#License)  
   
   ## Install
-This platform was created with the intention of making it easy for any user curious about the current stock market. The search bar function allows the user to add a stock they would like to track.
+NPM install required
   
   ## Usage
-This platform was created with the intention of making it easy for any user curious about the current stock market. The search bar function allows the user to add a stock they would like to track.
+The easy navigation in this application allows the user to focus solely on the stock(s) they are trying to follow
   
   ## Colaborators
-Walter U
+Walter Underwood
   
   ## Test
-no test are included
+No test were implemented.
 
   ## Contact
 Feel free to contact me:
 GitHub: [Wau00](https://github.com/Wau00)
-Email: walteru@gmail.com
+Email: walonso@gmail.com
   
   # License
 This project is protected under MIT license. 
